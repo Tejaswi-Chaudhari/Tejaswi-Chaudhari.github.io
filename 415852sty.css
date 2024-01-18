@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Hedvig+Letters+Sans&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 1239px;
+}
+.header{
+    background-color: #ffffff;
+    position: fixed;
+    padding: 15px 70px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    width: 1099px;
+    margin: 0%;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    z-index: 999;
+}
+.header .header-content .header-brand-name{
+    color: #AA955C;
+    margin-left: 65px;
+}
+.header .header-content .header-nav{
+    float: right;
+}
+.header .header-content .header-nav .header-nav-span{
+    margin-left: 50px;
+}
+.header .header-content .header-nav .header-nav-span .active{
+    color: #AA955C;
+    text-decoration: none;
+}
+.header .header-content .header-nav .header-nav-span .header-nav-link{
+    color: #000000;
+    text-decoration: none;
+}
+.header .header-content .header-nav .header-nav-span .header-nav-link:hover{
+    color: #AA955C;
+    cursor: pointer;
+}
+.home{
+    background: url(./images/image3.png);
+    background-size: 1239px 1330px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 1080px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'EB Garamond', serif;
+}
+.home .home-text{
+    margin-top: 0;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 400px;
+    font-size: 50px;
+    letter-spacing: 18px;
+    line-height: 80px;
+}
+.services{
+    background-color: #ffffff;
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    max-height: 460px;
+}
+.services .services-content{
+    display: flex;
+    flex-direction: column;
+    background: url(./images/flower.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #ffffff;
+    margin-right: 70px;
+    width: 350px;
+    text-align: center;
+}
+.services .services-content .services-heading{
+    margin-top: 100px;
+    font-size: 30px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    letter-spacing: 12px;
+}
+.services .services-content .services-text{
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    margin-top: 55px;
+    margin-left: 60px;
+    margin-right: 60px;
+    letter-spacing: 2px;
+    line-height: 35px;
+    font-weight: bold;
+}
+.services .services-content .services-btn{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 40px;
+    font-size: 14px;
+}
+.services .services-img{
+    width: 690px;
+    height: auto;
+    object-fit: cover;
+}
+.testimonials{
+    margin-top: 70px;
+    text-align: center;
+}
+.testimonials .testimonials-slider{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.testimonials .testimonials-slider .testimonials-arrow-left{
+    display: flex;
+    flex-direction: column;
+    rotate: 180deg;
+}
+.testimonials .testimonials-slider .testimonials-arrow-right{
+    display: flex;
+    flex-direction: column;
+}
+.testimonials .testimonials-slider .testimonials-text{
+    display: flex;
+    flex-direction: column;
+    font-family: 'EB Garamond', serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    width: 45%;
+    margin-left: 230px;
+    margin-right: 230px;
+    font-weight: bold;
+}
+.testimonials .testimonials-credit{
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    color: #AA955C;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 150px;
+}
+.gallery{
+    background: url(./images/image2.png);
+    height: 600px;
+    width: auto;
+    margin: 70px;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 1199px auto;
+}
+.gallery-content{
+    position: absolute;
+    left: 800px;
+    filter: brightness(110%);
+    background: url(./images/flower1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #ffffff;
+    margin-right: 70px;
+    text-align: center;
+    margin-top: 60px;
+    min-height: 550px;
+    width: 300px;
+}
+.gallery-content .gallery-heading{
+    margin-top: 80px;
+    font-size: 30px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    letter-spacing: 12px;
+}
+.gallery-content .gallery-text{
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    margin-top: 75px;
+    margin-left: 60px;
+    margin-right: 60px;
+    letter-spacing: 4px;
+    line-height: 35px;
+    font-weight: bold;
+}
+.gallery-content .gallery-btn{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 40px;
+    font-size: 14px;
+}
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #AA955C;
+    margin: 110px 70px 30px 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.footer .footer-section-1{
+    display: flex;
+    flex-direction: column;
+    border-right: solid 1px #ffffff;
+    padding-right: 30px;
+    height: max-content;
+}
+.footer .footer-section-2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 140px;
+    word-wrap: break-word;
+}
+.footer .footer-section-3{
+    display: flex;
+    flex-direction: column;
+    border-left: solid 1px #ffffff;
+    padding-left: 30px;
+    height: 66px;
+}
+.footer .footer-btn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 85px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: transparent;
+    border: #ffffff solid 1px;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.nav{
+    margin-bottom: -5px;
+}
