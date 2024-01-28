@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Hedvig+Letters+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 body{
     margin: 0%;
     padding: 0%;
@@ -8,7 +8,7 @@ body{
     background-color: #ffffff;
     position: fixed;
     padding: 15px 70px;
-    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: Helvetica, sans-serif;
     width: 1099px;
     margin: 0%;
     font-size: 14px;
@@ -78,13 +78,13 @@ body{
 .services .services-content .services-heading{
     margin-top: 100px;
     font-size: 30px;
-    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: Helvetica, sans-serif;
     letter-spacing: 12px;
 }
 .services .services-content .services-text{
     font-family: 'EB Garamond', serif;
     font-size: 20px;
-    margin-top: 55px;
+    margin-top: 65px;
     margin-left: 60px;
     margin-right: 60px;
     letter-spacing: 2px;
@@ -138,7 +138,7 @@ body{
     font-weight: bold;
 }
 .testimonials .testimonials-credit{
-    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: Helvetica, sans-serif;
     color: #AA955C;
     font-size: 14px;
     font-weight: bold;
@@ -171,7 +171,7 @@ body{
 .gallery-content .gallery-heading{
     margin-top: 80px;
     font-size: 30px;
-    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: Helvetica, sans-serif;
     letter-spacing: 12px;
 }
 .gallery-content .gallery-text{
@@ -198,12 +198,12 @@ body{
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #AA955C;
-    margin: 110px 70px 30px 70px;
+    margin: 110px 70px 0px 70px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     color: #ffffff;
-    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: sHelvetica, sans-serif;
     font-size: 13px;
     line-height: 22px;
     font-weight: bold;
