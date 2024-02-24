@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="415852sty2.css">
+</head>
+
+<body>
+    <p class="heading">Stock Search</p>
+    <div class="input">
+        <form class="input-form" id="searchForm">
+            <button class="input-button-search" id="search" type="submit">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search"
+                    class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512">
+                    <path fill="currentColor"
+                        d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+                    </path>
+                </svg>
+            </button>
+            <input class="input-field" id="searchInput" type="text" name="search"
+                placeholder="Enter Stock Ticker Symbol" required>
+            <button class="input-button-cancel" type="reset" onclick="hideResults()">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times"
+                    class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 352 512">
+                    <path fill="currentColor"
+                        d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z">
+                    </path>
+                </svg>
+            </button>
+        </form>
+    </div>
+    <div class="results" id="results">
+        <div class="tab">
+            <button class="tab-link active" onclick="openTab(event, 'tab1')" id="defaultOpen">Company</button>
+            <button class="tab-link" onclick="openTab(event, 'tab2')">Stock Summary</button>
+            <button class="tab-link" onclick="openTab(event, 'tab3')">Charts</button>
+            <button class="tab-link" onclick="openTab(event, 'tab4')">Latest News</button>
+        </div>
+        <div id="tab1" class="tab-content"></div>
+        <div id="tab2" class="tab-content"></div>
+        <div id="tab3" class="tab-content"></div>
+        <div id="tab4" class="tab-content"></div>
+    </div>
+    <div class="error" id="error">
+        <p>Error: No record has been found, please enter a valid symbol</p>
+    </div>
+    <script src="415852scr2.js" async defer></script>
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/accessibility.js"></script>
+</body>
+
+</html>
